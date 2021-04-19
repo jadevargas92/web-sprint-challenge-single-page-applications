@@ -63,6 +63,9 @@ const App = () => {
     .then(res => {
       console.log('success', res.data)
     })
+    .catch(err => {
+      console.log(err)
+    })
   }
   
   // Returns all of our components depending on routes, and passes the needed information
